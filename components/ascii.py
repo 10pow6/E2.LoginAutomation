@@ -1,0 +1,30 @@
+class ASCIIEarth():
+    def generate_ascii():
+
+        art = "                 _-o#&&*''''?d:>b\_                  \n"
+        art += "            _o/\"`''  '',, dMF9MMMMMHo_              \n"
+        art += "         .o&#'        `\"MbHMMMMMMMMMMMHo.           \n"
+        art += "       .o\"\" '         vodM*$&&HMMMMMMMMMM?.         \n"
+        art += "      ,'              $M&ood,~'`(&##MMMMMMH\        \n"
+        art += "     /               ,MMMMMMM#b?#bobMMMMHMMML       \n"
+        art += "    &              ?MMMMMMMMMMMMMMMMM7MMM$R*Hk      \n"
+        art += "   ?$.            :MMMMMMMMMMMMMMMMMMM/HMMM|`*L     \n"
+        art += "  |               |MMMMMMMMMMMMMMMMMMMMbMH'   T,    \n"
+        art += "  $H#:            `*MMMMMMMMMMMMMMMMMMMMb#}'  `?    \n"
+        art += "  ]MMH#             \"\"*\"\"\"\"*#MMMMMMMMMMMMM'    -\n"
+        art += "  MMMMMb_                   |MMMMMMMMMMMP'     :     \n"
+        art += "  HMMMMMMMHo                 `MMMMMMMMMT       .    \n"
+        art += "  ?MMMMMMMMP                  9MMMMMMMM}       -    \n"
+        art += "  -?MMMMMMM                  |MMMMMMMMM?,d-    '    \n"
+        art += "   :|MMMMMM-                 `MMMMMMMT .M|.   :     \n"
+        art += "    .9MMM[                    &MMMMM*' `'    .      \n"
+        art += "     :9MMk                    `MMM#\"        -       \n"
+        art += "       &M}                     `          .-        \n"
+        art += "        `&.                             .           \n"
+        art += "          `~,   .                     ./            \n"
+        art += "              . _                  .-               \n"
+        art += "                '`--._,dd###pp=\"\"'                  \n"
+        art +=  "\n\n               The NOT Earth2.io TUI                  \n"
+        art += "                    -A butt product of 10pow6\n"
+
+        return art

@@ -1,0 +1,23 @@
+Horizontal {
+    border: ascii;
+    height: 10;
+    align: center middle
+}
+
+
+
+#words {
+    color: azure;
+}
+
+.box {
+    width: 82;
+    margin: 1;
+    /*background: green;*/
+    color: azure;
+    border: heavy white;
+}
+
+.startScreenBtn {
+    border: round;
+}

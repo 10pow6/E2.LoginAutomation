@@ -1,0 +1,70 @@
+CoreNav {
+    layout: grid;
+    grid-size: 3 3;
+    grid-rows: 3 1fr 1fr;
+}
+
+CoreNav .box {
+    height: 100%;
+    border: solid green;
+}
+
+CoreNav #profile {
+    row-span: 3;
+}
+
+
+
+Login {
+    layout: grid;
+    grid-size: 3 3;
+    grid-rows: 3 1fr 1fr;
+}
+
+Login #url-bar {
+    column-span: 3;
+    row-span: 1;
+    background: darkblue;
+    border: heavy white;
+}
+
+Login #ascii-art {
+    column-span: 1;
+    row-span: 1;
+}
+
+
+Login #login-box {
+    column-span: 1;
+}
+
+Login #processing-info {
+    column-span: 1;
+    row-span: 2;
+}
+
+Login #settings-selector {}
+
+Login #settings-display {}
+
+Login .box {
+    height: 100%;
+    border: solid green;
+}
+
+Login .form-label {
+    margin-top:1;
+    margin-right:1;
+    margin-left:1;
+}
+
+Login .login-box {
+    margin-top:1;
+    margin-right:1;
+}
+
+Login Horizontal {
+    align: center middle;
+    margin-top:1;
+    height: auto;
+}

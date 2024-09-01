@@ -15,17 +15,18 @@ class playwright_flows:
             await page.goto( target )
             helpers.fitted_log_msg( tui_context=tui_context, text=["Navigating to " +  target] )
 
-            # Click on login button
-            await page.get_by_text('LOG IN / SIGN UP').click()
-            helpers.fitted_log_msg( tui_context=tui_context, text=["Clicking login"] )
+            await page.locator("text=LOG IN / SIGN UP").click()
+            print("Clicked login on main page")
 
-            # Fill in the username and password fields and click the login button
-            await page.locator('[name=username]').fill(username)
-            await page.locator('[name=password]').fill(password)
-            helpers.fitted_log_msg( tui_context=tui_context, text=["Filling user & pass on Auth0 Login page"] )
+            await page.locator("[name=p_email]").fill(value=username)
+            print("Filled username")
+            await page.locator("text=Continue").click()
+            print("Clicked Continue")
 
-            await page.locator('[name=action]').click()
-            helpers.fitted_log_msg( tui_context=tui_context, text=["Clicking login"] )
+            await page.locator("[name=p_password]").fill(value=password)
+            print("Filled password")
+            await page.locator("text=Continue").click()
+            print("Clicked Continue")
 
             # Fill in the OTP field and click the login button
             await page.locator('[name=otp_token]').fill(otp)
